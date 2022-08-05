@@ -1,7 +1,7 @@
 <!--
  * @Author: 黄剑
  * @Date: 2022-07-27 10:42:12
- * @LastEditTime: 2022-08-04 16:06:51
+ * @LastEditTime: 2022-08-04 16:23:19
  * @LastEditors: 黄剑
  * @Description: 
  * @FilePath: \WebProjects\src\App.vue
@@ -13,7 +13,7 @@ const router = useRouter();
 </script>
 <template>
   <div class="w-screen h-screen flex">
-    <div class="w-1/6 flex flex-col items-center justify-evenly">
+    <div class="bg-gray-200 w-1/6 flex flex-col items-center justify-evenly">
       <div class="bt" @click="router.push('/form')">Form Validator</div>
       <div class="bt">Movie Seat Booking</div>
       <div class="bt">Custom Video Player</div>
